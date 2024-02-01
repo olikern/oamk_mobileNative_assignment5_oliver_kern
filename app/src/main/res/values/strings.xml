@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">oamk_mobileNative_assignment5_oliver_kern</string>
+    <string name="calories">Calories</string>
+    <string name="weightPrompt">Enter weight</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="selectIntensity">Select Intensity</string>
+    <string name="calculate">CALCULATE</string>
 </resources>
