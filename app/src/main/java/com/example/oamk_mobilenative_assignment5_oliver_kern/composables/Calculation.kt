@@ -12,6 +12,10 @@ import com.example.oamk_mobilenative_assignment5_oliver_kern.R
 fun Calculation(male: Boolean, weight: Int, intensity: Float, setResult: (Int) -> Unit) {
     Button(
         onClick = {
+            if (weight <= 0) {
+                setResult(0)
+                return@Button
+            }
             if (male) {
                 setResult(((879 + 10.2 * weight) * intensity).toInt())
             } else {
